@@ -97,4 +97,4 @@ def main():
     }, path + f"/models/Adam_models_{max_iter}.pt")
 
 
-cProfile.run(main(), "profile.csv")
+cProfile.run('main()', "profile.stats")
