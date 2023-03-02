@@ -14,3 +14,9 @@ in command line.
 You can create a new virtual requirement by using `Pip` and the `requirement.txt` file.
 
     pip install -r requirement.txt
+
+To measure the energy consumption, I ran these experiments locally in my laptop and use 
+
+    powercfg /batteryreport
+
+in command line to track the battery usage.
